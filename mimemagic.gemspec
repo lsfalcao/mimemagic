@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name = 'mimemagic'
   s.version = MimeMagic::VERSION
 
-  s.authors = ['Daniel Mendler']
+  s.authors = ['Leandro Falcão']
   s.date = Date.today.to_s
-  s.email = ['mail@daniel-mendler.de']
+  s.email = ['lsfalcao@yahoo.com.br']
 
   s.files         = `git ls-files`.split("\n")
   s.require_paths = %w(lib)
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.summary = 'Fast mime detection by extension or content'
   s.description = 'Fast mime detection by extension or content in pure ruby (Uses freedesktop.org.xml shared-mime-info database)'
-  s.homepage = 'https://github.com/minad/mimemagic'
+  s.homepage = 'https://github.com/lsfalcao/mimemagic'
   s.license = 'MIT'
 
   s.add_development_dependency('bacon')
